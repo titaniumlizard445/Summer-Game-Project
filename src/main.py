@@ -1,3 +1,3 @@
-#Summer Game Project
+# Summer Game Project
 # import pygame
 # need to install pygame
