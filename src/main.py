@@ -14,13 +14,15 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
     
-        screen.fill("blue")
+        screen.fill("black")
         pygame.draw.rect(screen,"white",(100,100,100,100),border_radius=5)
 
         pygame.display.flip()
 
         clock.tick(60)
-    
+        
+
+
     pygame.quit()
 
     #Create Buttons
