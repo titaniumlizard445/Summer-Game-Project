@@ -1,12 +1,13 @@
 import pygame
 pygame.init()
-screen = pygame.display.set_mode((1530, 825))
-clock = pygame.time.Clock()
-running = True
-curr = "main menu"
-font = pygame.font.Font("src/files/BlackOpsOne-Regular.ttf",128)
+
 
 def main():
+    screen = pygame.display.set_mode((1530, 825))
+    clock = pygame.time.Clock()
+    running = True
+    curr = "main menu"
+    font = pygame.font.Font("src/files/BlackOpsOne-Regular.ttf",128)
     title = font.render("BRIDGE", True, (0,50,255))
 
     while running:
