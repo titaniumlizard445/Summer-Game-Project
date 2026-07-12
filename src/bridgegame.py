@@ -2,7 +2,7 @@ import pygame
 pygame.init()
 
 
-def main():
+def bridge_main():
     screen = pygame.display.set_mode((1530, 825))
     clock = pygame.time.Clock()
     running = True
@@ -17,7 +17,7 @@ def main():
 
         match curr:
             case "main menu":
-                main_menu()
+                main_menu(screen)
             # case settings:
 
             case _:
@@ -39,7 +39,7 @@ def main():
 
 
 
-def main_menu():
+def main_menu(screen):
     screen.fill("black")
     
 
@@ -52,6 +52,6 @@ def main_menu():
 
 
 
-main()
+bridge_main()
 
 
